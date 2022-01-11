@@ -7,11 +7,11 @@ const useRequestData = (initialData, url) => {
   useEffect(() => {
     axios.get(url , {
       headers: {
-        Authorization: localStorage.getItem('token')
+        Authorization: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InR6TlZ4bTRLWXd3ZGFNelFla25rIiwibmFtZSI6IlJlbmFuIiwiZW1haWwiOiJyZW5hbkBob3RtYWlsLmNvbSIsImNwZiI6Ijc3Ny43NzcuNzc3LTc3IiwiaGFzQWRkcmVzcyI6ZmFsc2UsImlhdCI6MTY0MTg0ODEzNH0.4qJEpeuaDfdvpGme_RrVdE6KINL5OcD5WIOnibAjRI4'
       }
     })
       .then((response) => {
-        setData(response.data)
+        setData(response.data.restaurant)
       })
       .catch((error) => {
         console.log(error)
