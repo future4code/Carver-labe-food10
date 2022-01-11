@@ -1,0 +1,16 @@
+export const goToLogin = (history) => {
+  history.push("/login");
+};
+
+export const goToSignUpPage = (history) => {
+  history.push("/cadastro");
+};
+export const goToAddRecipes = (history) => {
+  history.push("/adicionar-receita");
+};
+export const goToRecipeDetail = (history, id) => {
+  history.push(`/detalhe/${id}`);
+};
+export const goToHomeList = (history) => {
+  history.push("/");
+};
