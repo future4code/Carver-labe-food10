@@ -1,0 +1,33 @@
+/*  
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+} */
+
+.Mobile-Signal {
+  width: 16.5px;
+  height: 10px;
+  margin: 1.5px 3.5px 2.5px 0;
+  border-radius: 1px;
+}
+
+.Signal-Black {
+  width: 140px;
+  height: 20px;
+  margin: 0 5px 0 0;
+  padding: 3px 54px 2px 6px;
+}
+
+.Wifi {
+  width: 14.3px;
+  height: 10px;
+  margin: 1.5px 0 2.5px 5.3px;
+  background-color: #000;
+}
+
+.Perfil {
+  width: 360px;
+  height: 640px;
+}
+

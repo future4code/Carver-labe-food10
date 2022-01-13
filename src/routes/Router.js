@@ -11,14 +11,12 @@ const Router = () => {
         <BrowserRouter>
             <Routes>
                 <Route path="/Profile"  element={<ProfilePage />}>
-                    <ProfilePage/>
                 </Route>
 
                 <Route path="/UpdateProfile"  element={<UpdateProfilePage />}>
-                    <UpdateProfilePage/>
                 </Route>
+                
                 <Route path="/Error" element={<ErrorPage />}>
-                    <ErrorPage/>
                 </Route>
             </Routes>
         </BrowserRouter>
