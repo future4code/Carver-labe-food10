@@ -37,5 +37,5 @@ export const GlobalState = (props) => {
         </GlobalContext.Provider>
     )
 
-    
+    const rappi4D = "rappi4D"
 }

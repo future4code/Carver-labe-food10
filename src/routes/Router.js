@@ -1,8 +1,10 @@
 import React from 'react';
 import {BrowserRouter, Routes, Route } from 'react-router-dom';
-import ErrorPage from '../user/ErrorPage/ErrorPage';
+import  LoginPage  from '../user/LoginPage/LoginPage';
+import RestaurantsList from '../user/RestaurantsList/RestaurantsList';
 import ProfilePage from '../user/ProfilePage/ProfilePage';
 import UpdateProfilePage from '../user/UpdateProfilePage/UpdateProfilePage';
+import ErrorPage from '../user/ErrorPage/ErrorPage';
 
 
 const Router = () => {
@@ -10,6 +12,9 @@ const Router = () => {
     return(
         <BrowserRouter>
             <Routes>
+                <Route path="/Login"  element={<LoginPage />}>
+                </Route>
+
                 <Route path="/Profile"  element={<ProfilePage />}>
                 </Route>
 
@@ -17,6 +22,9 @@ const Router = () => {
                 </Route>
                 
                 <Route path="/Error" element={<ErrorPage />}>
+                </Route>
+
+                <Route path="/Restaurant" element={<RestaurantsList/>}>
                 </Route>
             </Routes>
         </BrowserRouter>

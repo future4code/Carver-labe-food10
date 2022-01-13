@@ -19,7 +19,6 @@ const ProfilePage = () => {
     return (
         <div>
             
-            
             <div className='Perfil'>
                 <div className='Mobile-Signal'>
                     <SignalCellularAltIcon />
