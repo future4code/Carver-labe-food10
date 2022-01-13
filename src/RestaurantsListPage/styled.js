@@ -2,16 +2,23 @@ import styled from 'styled-components'
 import Fab from '@material-ui/core/Fab'
 
 export const RestaurantsListContainer = styled.div`
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
+  display:grid;
+  grid-template-columns: 1fr 1fr ;
   flex-wrap: wrap;
   margin: 30px;
+  /* border:solid 1px; */
 `
 
 export const CardRestaurants = styled.div`
 
-  display:flex;
-  border:solid 1px red;
+  
+  flex-wrap: wrap;
+  
+  
+  /* border:solid 1px;
+   */
 
 
 `
@@ -20,5 +27,5 @@ export const PhotoCard = styled.div`
     justify-content: center;
 `
 export const Photo = styled.img`
-    height: 20vh;
+    height: 30vh;
 `
