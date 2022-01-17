@@ -5,6 +5,7 @@ import RestaurantsList from '../user/RestaurantsList/RestaurantsList';
 import ProfilePage from '../user/ProfilePage/ProfilePage';
 import UpdateProfilePage from '../user/UpdateProfilePage/UpdateProfilePage';
 import ErrorPage from '../user/ErrorPage/ErrorPage';
+import AddAdressPage from '../user/AddAdressPage/AddAdressPage';
 
 
 const Router = () => {
@@ -18,6 +19,9 @@ const Router = () => {
                 <Route path="/Profile"  element={<ProfilePage />}>
                 </Route>
 
+                <Route path="/AddAdress"  element={<AddAdressPage />}>
+                </Route>
+
                 <Route path="/UpdateProfile"  element={<UpdateProfilePage />}>
                 </Route>
                 
@@ -29,7 +33,6 @@ const Router = () => {
             </Routes>
         </BrowserRouter>
     );
-
 };
 
 export default Router;
