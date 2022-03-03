@@ -6,9 +6,9 @@ export const goToProfile = (navigate) => {
   navigate('/Profile');
 };
 
-export const goToAddAdress = (navigate) => {
-  navigate('/AddAdress');
-};
+// export const goToAddAdress = (navigate) => {
+//   navigate('/AddAdress');
+// };
 
 export const goToRestaurants = (navigate) => {
   navigate('/Restaurant');
